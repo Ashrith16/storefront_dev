@@ -8,8 +8,8 @@ class BottomBarController extends GetxController {
 
   final screens = [
     const HomePage(),
-    //add productscreen(),
     const LogoutButton(),
+    //add productscreen(),
   ];
 
   void changeIndex(int index) {
